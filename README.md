@@ -1,5 +1,17 @@
 # Udacity_Efficientdet_SSD
 Dataset : https://public.roboflow.com/object-detection/self-driving-car 
+The original Udacity Self Driving Car Dataset is missing labels for thousands of pedestrians, bikers, cars, and traffic lights. This will result in poor model performance. When used in the context of self driving cars, this could even lead to human fatalities.
+
+Re-labeled the dataset to correct errors and omissions.
+
+Content
+The dataset contains 97,942 labels across 11 classes and 15,000 images. There are 1,720 null examples (images with no labels).
+
+All images are 1920x1200 (download size ~3.1 GB).
+
+Annotations have been hand-checked for accuracy by Roboflow.
+
+Traning files needs 12 hrs for traning.
 
 Model: 
 EfficientDet achieves the best performance in the fewest training epochs among object detection model architectures,making it a highly scalable architecture especially
